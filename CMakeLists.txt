@@ -3,4 +3,4 @@ project(untitled34)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled34 main.cpp)
+add_executable(untitled34 BAEKJOON_PS/2529/main.cpp)
