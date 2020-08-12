@@ -17,7 +17,7 @@ int main(){
         cin >> a[i];
     }
     int ans = 0;
-    for(int i = n-1; n>=0; n--)
+    for(int i = n-1; i>=0; i--)
     {
         ans += k/a[i];
         k %= a[i];
